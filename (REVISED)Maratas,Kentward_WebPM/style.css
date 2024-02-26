@@ -1,0 +1,103 @@
+
+body{
+    background-image: url(images/background.jpg);
+}
+
+.sticky{
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 97%;
+    position: fixed;
+    align-items: center;
+    font-size: 19px;
+    top: -2.2%;
+}
+
+.form{
+    margin-right: 25px;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    float: inline-end;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-right: 75px;
+    padding-left: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+}
+
+.title{
+    margin-left: 55px;
+}
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+button{
+    display: flex;
+    background-color: #008CBA;
+    font-size: 16px;
+    margin-left: 560px;
+}
+
+.img img{
+    width: 150px;
+    float: left;
+}
+
+.post{
+    padding-top: 15px;
+    background-color: white;
+    width: 950px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.review{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 5%;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic';
+}
+
+
+h1 {
+    font-size: 5cm;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.sticky li{
+    margin-left: 25px;
+}
+
+footer{
+    font-family: 'Franklin Gothic';
+}
